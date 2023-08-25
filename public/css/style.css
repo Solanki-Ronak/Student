@@ -1,0 +1,203 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("abcd.jpg");
+    
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(4, 170, 4);
+    
+}
+
+/* Style the form */
+form {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #888;
+    border-radius: 10px;
+}
+
+/* Style the form label */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: black;
+}
+
+/* Style the form input fields */
+input[type="text"],
+input[type="number"],
+input[type="button"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+/* Style the submit button */
+input[type="button"] {
+    background-color: rgb(4, 170, 4);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type="button"]:hover {
+    background-color: #1ebc30af;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the table header */
+th {
+    background-color: rgb(4, 170, 4);
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Style the table rows on hover */
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Style the button */
+button {
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(4, 170, 4);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.2s ease-in-out;
+    
+}
+
+/* Style the button on hover */
+button:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+.button1 {
+padding: 8px 16px;
+border: none;
+background-color:  rgb(4, 170, 4);
+color: #fff;
+cursor: pointer;
+border-radius: 4px;
+margin-bottom: 10px;
+display: block;
+margin: 0 auto;
+
+
+}
+#median {
+text-align: center;
+font-size: 1.2em;
+font-weight: bold;
+margin-bottom: 20px;
+}
+/* Style the graph container */
+#graph {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 25em;
+    border-radius: 10px;
+
+}
+#myChart{
+    margin:5%;
+    border: 2px solid rgb(4, 170, 4);
+    padding: 3%;
+}
+#medianButton{
+    
+    margin-left: 44.8%;
+    color: white;
+background-color: rgb(4, 170, 4);
+align-items: center;
+height: 50px;
+width: 5em;
+margin-right: 2%;
+font-size: 23px;
+}
+#medianButton:hover{
+    color: white;
+    background-color: black;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+#xyz{
+    margin-left: 45%;
+    color: white;
+background-color: rgb(4, 170, 4);
+align-items: center;
+height: 50px;
+width: 5em;
+margin-right: 2%;
+}
+#xyz:hover{
+    color: white;
+    background-color: black;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+    
+}
+#add_std{
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(4, 170, 4);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.2s ease-in-out;
+}
+#add_std:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+    
+}

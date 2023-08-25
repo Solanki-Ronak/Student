@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>IST4035 Students</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    </head>
+    <body onload="fetchStudents()" background="abcd.jpg">
+        <h1>Student Register</h1>
+        <div>
+            <form>
+                <label><span>Student name:</span>
+                    <input id="studentName" type="text" />
+                   
+                </label>
+                <label> <span>Student Marks (0-100):</span>
+                    <input id="studentId" type="text" />
+                    
+                </label>
+                <label>
+                    <span> </span>
+                    <button id="add_std">Add student</button>
+                </label>
+            </form>
+            
+            <table id="content">
+            </table>
+
+        </div>
+        <label>
+            <span> </span>
+            <button id="xyz" onclick="displayGraph()">Graph</button>
+        </label>
+
+    </body>
+    <script src="js/main.js"></script>
+
+</html>
